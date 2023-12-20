@@ -1,2 +1,7 @@
 # My-Mac-Terminal-Customs
 This repo contains a read-me breakdown and other files for the customization of my Mac M2 terminal
+
+### Using The Starship Preset
+Starship's configurations live in a toml file in the `~/.config/starship.toml` file to be precise, this contains, by default the default starship setups right after running the `eval "$(starship init zsh)"` command the terminal changes and sets to the default starship configuration, or rather sets to whatever is configured in the toml file. 
+That being said, starship has a set of Preset configurations, as toml files, available on the website for off-the-shelf usage; this means, if you feel like the default configuration right after installing starship is not your thing, or your taste ... -- whatever you call that; and you do not have time to configure by yourself either, then using another option already ready can be a much fair deal for you.
+And that is where the Starship Presets come from, which you can find [here](https://starship.rs/presets/), there you will have a quite some configurations to choose from, but for me I decided to go with the [Pastel Powerline Preset] (https://starship.rs/presets/pastel-powerline.html), which I can not say it's like the best of all terminal configurations out there, but heey, I wanted from the biggining to go with the [P10K] (https://github.com/romkatv/powerlevel10k) configuration, and well the Pastel Power Line came out close, at least until I get to customize and make it to my best tastes (which I'll come back to next), that should do just fine.
